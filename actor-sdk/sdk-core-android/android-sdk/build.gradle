@@ -179,49 +179,41 @@ project.afterEvaluate {
         archives sourcesJarRelease
     }
 
-    if (isDeployConfigured) {
+    uploadArchives {
+        repositories {
+            mavenDeployer {
+                repository(url: "file:C:/Users/dsilv/.m2/repository")
+                //repository(url: "file:/Users/diego/.m2/repository")
 
-        signing {
-            sign configurations.archives
-        }
+                pom.project {
+                    name 'Actor SDK for Android'
+                    packaging 'aar'
+                    version '1.0.4'
+                    description 'Actor SDK: Embedding mobile messaging to Android App'
+                    url 'https://github.com/dfsilva/actor-platform'
 
-        uploadArchives {
-            repositories {
-                mavenDeployer {
-                    beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
-
-                    repository(url: "https://oss.sonatype.org/service/local/staging/deploy/maven2/") {
-                        authentication(userName: ossrhUsername, password: ossrhPassword)
+                    scm {
+                        url 'scm:git@github.com:dfsilva/actor-platform.git'
+                        connection 'scm:git@github.com:dfsilva/actor-platform.git'
+                        developerConnection 'scm:git@github.com:dfsilva/actor-platform.git'
                     }
 
-                    pom.project {
-                        name 'Actor SDK for Android'
-                        packaging 'aar'
-                        description 'Actor SDK: Embedding mobile messaging to Android App'
-                        url 'https://github.com/actorapp/actor-platform'
-
-                        scm {
-                            url 'scm:git@github.com:actorapp/actor-platform.git'
-                            connection 'scm:git@github.com:actorapp/actor-platform.git'
-                            developerConnection 'scm:git@github.com:actorapp/actor-platform.git'
+                    licenses {
+                        license {
+                            name 'The MIT License (MIT)'
+                            url 'http://opensource.org/licenses/MIT'
+                            distribution 'repo'
                         }
+                    }
 
-                        licenses {
-                            license {
-                                name 'The MIT License (MIT)'
-                                url 'http://opensource.org/licenses/MIT'
-                                distribution 'repo'
-                            }
-                        }
-
-                        developers {
-                            developer {
-                                id 'ex3ndr'
-                                name 'Stepan Korshakov'
-                            }
+                    developers {
+                        developer {
+                            id 'dfsilva'
+                            name 'Diego Ferreira da Silva'
                         }
                     }
                 }
+
             }
         }
     }
