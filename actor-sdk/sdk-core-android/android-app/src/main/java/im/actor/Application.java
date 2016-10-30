@@ -81,7 +81,7 @@ public class Application extends ActorSDKApplication {
 //        ActorSDK.sharedActor().setInviteUrl("http://www.foo.com");
 //        ActorSDK.sharedActor().setCallsEnabled(true);
 
-//        ActorSDK.sharedActor().setEndpoints(new String[]{"tcp://192.168.1.184:9070"});
+        ActorSDK.sharedActor().setEndpoints(new String[]{"tcp://192.168.1.8:9070"});
 
 //        ActorStyle style = ActorSDK.sharedActor().style;
 //        style.setMainColor(Color.parseColor("#529a88"));
