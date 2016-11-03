@@ -176,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58731A67470ABB64477A86D26A0C38CA /* Build configuration list for PBXNativeTarget "ActorApp" */;
 			buildPhases = (
+				82AE060B26DA57355E8413A9 /* [CP] Check Pods Manifest.lock */,
 				712B269FC35BFB6C85DF769C /* [CP] Check Pods Manifest.lock */,
 				50CB7471D350DF82230B74B5952FA7BD /* Sources */,
 				4533F91FE5E247335BA76B35E6FC28C1 /* Frameworks */,
@@ -184,7 +185,7 @@
 				06230F0D1BC7FF3500A4807B /* Embed Frameworks */,
 				AAA022A9BD9362E00B0F9BDE /* [CP] Embed Pods Frameworks */,
 				EFFD470B63C1BB419D199F19 /* [CP] Copy Pods Resources */,
-				851EE1A34619AE6677649A27 /* Embed Pods Frameworks */,
+				851EE1A34619AE6677649A27 /* 📦 Embed Pods Frameworks */,
 				1A5742381DAD4FD80064C87A /* 📦 Embeded pods framework */,
 				1A5742391DAD50070064C87A /* 📦 Copy Pods Resources */,
 			);
@@ -319,7 +320,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActorApp/Pods-ActorApp-resources.sh\"";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActorApp/Pods-ActorApp-resources.sh\"\n";
 		};
 		712B269FC35BFB6C85DF769C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -336,14 +337,29 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		851EE1A34619AE6677649A27 /* Embed Pods Frameworks */ = {
+		82AE060B26DA57355E8413A9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		851EE1A34619AE6677649A27 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +465,7 @@
 					"$(PROJECT_DIR)/Pods/J2ObjC-Framework/Frameworks",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "ActorApp/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -463,7 +480,7 @@
 				SDK_PATH = "../actor-sdk";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -502,6 +519,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -527,6 +545,7 @@
 					"$(PROJECT_DIR)/Pods/J2ObjC-Framework/Frameworks",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "ActorApp/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -540,7 +559,7 @@
 				SDK_PATH = "../actor-sdk";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -588,6 +607,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;

@@ -64,6 +64,7 @@ mkdir -p build/Podspec/ActorSDK.framework.dSYM
 cp -r build/Output/ActorSDK.framework build/Podspec/
 cp -r build/Output/ActorSDK.framework.dSYM build/Podspec/
 cp -r Template/ build/Podspec/
+cp ActorSDK-iOS.podspec build/Podspec/
 
 cd build/Podspec/
 rm -f ActorSDK.zip

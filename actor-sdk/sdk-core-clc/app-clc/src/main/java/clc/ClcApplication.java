@@ -85,7 +85,7 @@ public class ClcApplication {
             public void onResult(AuthState res) {
                 if (res == AuthState.LOGGED_IN){
                     logger.info("LOGGED_IN");
-//                    sendMessage("+989150000" + (myNumber + 20), "seed: " + randomSeed + "," + myNumber);
+                    sendMessage("+989150000" + (myNumber + 20), "seed: " + randomSeed + "," + myNumber);
                 }else if(res == AuthState.SIGN_UP){
                     logger.info("SIGN_UP");
                 }
@@ -184,7 +184,7 @@ public class ClcApplication {
                 "najva00000000000000000123-" + myNumber,
                 "najva00000000000000000000-v1-" + myNumber));
 
-        messenger = new ClcMessenger(builder.build(),Integer.toString(myNumber));
+        messenger = new ClcMessenger(builder.build(), Integer.toString(myNumber));
 
 //        messenger.resetAuth();
         requestSms(myNumber);

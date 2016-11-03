@@ -24,13 +24,14 @@ open class AppDelegate : ActorApplicationDelegate {
         ActorSDK.sharedActor().enableVideoCalls = true
         
         // Setting Development Push Id
-        ActorSDK.sharedActor().apiPushId = 868547
+       // ActorSDK.sharedActor().apiPushId = 868547
         
         ActorSDK.sharedActor().authStrategy = .phoneEmail
         
         ActorSDK.sharedActor().style.dialogAvatarSize = 58
         
         ActorSDK.sharedActor().autoJoinGroups = ["actor_news"]
+        ActorSDK.sharedActor().endpoints = ["tcp://192.168.1.8:9070"]
         
         // Creating Actor
         ActorSDK.sharedActor().createActor()
