@@ -85,7 +85,7 @@ public class ClcApplication {
             public void onResult(AuthState res) {
                 if (res == AuthState.LOGGED_IN){
                     logger.info("LOGGED_IN");
-                    sendMessage("+989150000" + (myNumber + 20), "seed: " + randomSeed + "," + myNumber);
+                    sendMessage("+556181122299" + (myNumber + 20), "seed: " + randomSeed + "," + myNumber);
                 }else if(res == AuthState.SIGN_UP){
                     logger.info("SIGN_UP");
                 }
