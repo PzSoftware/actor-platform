@@ -18,7 +18,7 @@ export CONFIGURATION_TEMP_DIR=`pwd`/build/Output/
 export PODS_ROOT=`pwd`/Pods
 
 cd ActorSDK/Sources/ActorCore
-make translate
+make translate build
 cd ../../..
 
 cd build/Output/j2objc/

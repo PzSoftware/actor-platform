@@ -44,7 +44,9 @@ target 'ActorSDK' do
     # J2Objc Runtime
     #pod 'J2ObjC-Framework'
     
-    pod 'J2ObjC-Framework', :podspec => 'https://raw.githubusercontent.com/dfsilva/J2ObjC-Framework/v1.2.3/J2ObjC-Framework.podspec'
+    #pod 'J2ObjC-Framework', :podspec => 'https://raw.githubusercontent.com/dfsilva/J2ObjC-Framework/v1.2.3/J2ObjC-Framework.podspec'
+    
+    #pod 'J2ObjC-Framework', :podspec => '/Users/diego/Documents/projetos/J2ObjC-Framework/J2ObjC-Framework.podspec'
 
     # Core Tools
     pod 'RegexKitLite'

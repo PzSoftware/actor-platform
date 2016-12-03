@@ -766,6 +766,28 @@
 		BEFE68D41C4657360001F2D6 /* AAThumbnailCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAThumbnailCollectionCell.swift; sourceTree = "<group>"; };
 		E30822B631D108159E8B306B /* Pods-ActorSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActorSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActorSDK/Pods-ActorSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		F076508E3899D309954904A3 /* Pods-ActorSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActorSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActorSDK/Pods-ActorSDK.release.xcconfig"; sourceTree = "<group>"; };
+		F10BD8BE1DF1869E007748D6 /* j2objc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = j2objc.framework; path = "Pods/J2ObjC-Framework/Frameworks/j2objc.framework"; sourceTree = "<group>"; };
+		F10BD8C01DF186DB007748D6 /* libandroid_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libandroid_util.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libandroid_util.a"; sourceTree = "<group>"; };
+		F10BD8C11DF186DB007748D6 /* libguava.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libguava.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libguava.a"; sourceTree = "<group>"; };
+		F10BD8C21DF186DB007748D6 /* libjavax_inject.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjavax_inject.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjavax_inject.a"; sourceTree = "<group>"; };
+		F10BD8C31DF186DB007748D6 /* libjre_beans.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_beans.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_beans.a"; sourceTree = "<group>"; };
+		F10BD8C41DF186DB007748D6 /* libjre_channels.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_channels.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_channels.a"; sourceTree = "<group>"; };
+		F10BD8C51DF186DB007748D6 /* libjre_concurrent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_concurrent.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_concurrent.a"; sourceTree = "<group>"; };
+		F10BD8C61DF186DB007748D6 /* libjre_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_core.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_core.a"; sourceTree = "<group>"; };
+		F10BD8C71DF186DB007748D6 /* libjre_emul.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_emul.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_emul.a"; sourceTree = "<group>"; };
+		F10BD8C81DF186DB007748D6 /* libjre_io.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_io.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_io.a"; sourceTree = "<group>"; };
+		F10BD8C91DF186DB007748D6 /* libjre_net.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_net.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_net.a"; sourceTree = "<group>"; };
+		F10BD8CA1DF186DB007748D6 /* libjre_security.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_security.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_security.a"; sourceTree = "<group>"; };
+		F10BD8CB1DF186DB007748D6 /* libjre_sql.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_sql.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_sql.a"; sourceTree = "<group>"; };
+		F10BD8CC1DF186DB007748D6 /* libjre_ssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_ssl.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_ssl.a"; sourceTree = "<group>"; };
+		F10BD8CD1DF186DB007748D6 /* libjre_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_util.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_util.a"; sourceTree = "<group>"; };
+		F10BD8CE1DF186DB007748D6 /* libjre_xml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_xml.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_xml.a"; sourceTree = "<group>"; };
+		F10BD8CF1DF186DB007748D6 /* libjre_zip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_zip.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjre_zip.a"; sourceTree = "<group>"; };
+		F10BD8D01DF186DB007748D6 /* libjsr305.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjsr305.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjsr305.a"; sourceTree = "<group>"; };
+		F10BD8D11DF186DB007748D6 /* libjunit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjunit.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libjunit.a"; sourceTree = "<group>"; };
+		F10BD8D21DF186DB007748D6 /* libmockito.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmockito.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libmockito.a"; sourceTree = "<group>"; };
+		F10BD8D31DF186DB007748D6 /* libprotobuf_runtime.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf_runtime.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libprotobuf_runtime.a"; sourceTree = "<group>"; };
+		F10BD8D41DF186DB007748D6 /* libxalan.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxalan.a; path = "Pods/J2ObjC-Framework/Distributive/lib/libxalan.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1672,6 +1694,28 @@
 		2F428D134E194A828C3DF863 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F10BD8C01DF186DB007748D6 /* libandroid_util.a */,
+				F10BD8C11DF186DB007748D6 /* libguava.a */,
+				F10BD8C21DF186DB007748D6 /* libjavax_inject.a */,
+				F10BD8C31DF186DB007748D6 /* libjre_beans.a */,
+				F10BD8C41DF186DB007748D6 /* libjre_channels.a */,
+				F10BD8C51DF186DB007748D6 /* libjre_concurrent.a */,
+				F10BD8C61DF186DB007748D6 /* libjre_core.a */,
+				F10BD8C71DF186DB007748D6 /* libjre_emul.a */,
+				F10BD8C81DF186DB007748D6 /* libjre_io.a */,
+				F10BD8C91DF186DB007748D6 /* libjre_net.a */,
+				F10BD8CA1DF186DB007748D6 /* libjre_security.a */,
+				F10BD8CB1DF186DB007748D6 /* libjre_sql.a */,
+				F10BD8CC1DF186DB007748D6 /* libjre_ssl.a */,
+				F10BD8CD1DF186DB007748D6 /* libjre_util.a */,
+				F10BD8CE1DF186DB007748D6 /* libjre_xml.a */,
+				F10BD8CF1DF186DB007748D6 /* libjre_zip.a */,
+				F10BD8D01DF186DB007748D6 /* libjsr305.a */,
+				F10BD8D11DF186DB007748D6 /* libjunit.a */,
+				F10BD8D21DF186DB007748D6 /* libmockito.a */,
+				F10BD8D31DF186DB007748D6 /* libprotobuf_runtime.a */,
+				F10BD8D41DF186DB007748D6 /* libxalan.a */,
+				F10BD8BE1DF1869E007748D6 /* j2objc.framework */,
 				06CE898B1BD841C9005A5530 /* SystemConfiguration.framework */,
 				066A51FF1BC4E0B0000E606E /* libsqlite3.tbd */,
 				354C3EFA48FBFAEAD0DEEE17 /* Pods_ActorSDK.framework */,
@@ -2442,6 +2486,7 @@
 					"$(PROJECT_DIR)/ActorSDK/Sources/Utils/AudioRecorder/libopus/lib",
 					"$(inherited)",
 					"$(PROJECT_DIR)/ActorSDK/Libs",
+					"$(PROJECT_DIR)/Pods/J2ObjC-Framework/Distributive/lib",
 				);
 				MACH_O_TYPE = mh_dylib;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2498,6 +2543,7 @@
 					"$(PROJECT_DIR)/ActorSDK/Sources/Utils/AudioRecorder/libopus/lib",
 					"$(inherited)",
 					"$(PROJECT_DIR)/ActorSDK/Libs",
+					"$(PROJECT_DIR)/Pods/J2ObjC-Framework/Distributive/lib",
 				);
 				MACH_O_TYPE = mh_dylib;
 				ONLY_ACTIVE_ARCH = YES;
